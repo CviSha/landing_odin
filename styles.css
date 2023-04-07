@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: gray
+}
+div {
+	border-width: 5px;
+	border-color: red;
+}
+
+.header {
+	background: green;
+}
+.cards {
+	background: aqua;
+}
+.quote {
+	background: orange;
+}
+.signup {
+	background: yellow;
+}
+.footer {
+	background: purple;
+}
