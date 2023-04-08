@@ -1,7 +1,7 @@
 body {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	/*height: 100vh;*/
 	background: gray
 }
 div {
@@ -11,16 +11,29 @@ div {
 
 .header {
 	background: green;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
 }
+.top-line{
+	display: flex;
+	justify-content: space-between;
+}
+
 .cards {
 	background: aqua;
+	height: 200px;
+
 }
 .quote {
 	background: orange;
+	height: 150px;
 }
 .signup {
 	background: yellow;
+	height: 100px;
 }
 .footer {
 	background: purple;
+	height: 30px;
 }
