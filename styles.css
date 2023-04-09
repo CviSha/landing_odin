@@ -71,10 +71,29 @@ div {
 	height: 100px;
 	background-color: rgb(200 100 100);
 }
+/* ----------------------------------------*/
 .quote {
-	background: orange;
+	background: #e5e7eb;
 	height: 250px;
 	width: 850px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.quote .content {
+	width: 500px;
+	height: 130px;
+	font-size: 24px;
+	font-family: light italic;
+	color: #172937
+}
+.quote .author {
+	align-self: center;
+    padding-left: 360px;
+    font-size: 18px;
+    font-weight: bold
+	
 }
 .signup {
 	background: yellow;
