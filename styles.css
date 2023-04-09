@@ -2,7 +2,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	/*height: 100vh;*/
-	background: gray
+	background: #151515;
+	align-items: center;
+	
 }
 div {
 	border-width: 5px;
@@ -11,7 +13,8 @@ div {
 
 .header {
 	background: green;
-	height: 200px;
+	height: 350px;
+	width: 850px;
 	display: flex;
 	flex-direction: column;
 }
@@ -19,21 +22,48 @@ div {
 	display: flex;
 	justify-content: space-between;
 }
+.top-line ul {
+	list-style: none;
+	display: flex;
+	gap: 5px;
+}
+.header .info {
+	display: flex;
+	padding: 50px;
+	gap: 45px;
+	justify-content: center;
+}
+.info .left-part {
+	width: 300px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	background-color: #1f1f2f;
+}
+.info .right-part {
+	width: 300px;
+	height: 150px;
+	background-color: gray;
 
+}
 .cards {
 	background: aqua;
-	height: 200px;
+	height: 350px;
+	width: 850px;
 
 }
 .quote {
 	background: orange;
-	height: 150px;
+	height: 250px;
+	width: 850px;
 }
 .signup {
 	background: yellow;
-	height: 100px;
+	height: 200px;
+	width: 850px;
 }
 .footer {
 	background: purple;
-	height: 30px;
+	height: 60px;
+	width: 850px;
 }
