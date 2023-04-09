@@ -10,7 +10,7 @@ div {
 	border-width: 5px;
 	border-color: red;
 }
-
+/* ----------------------------------------*/
 .header {
 	background: green;
 	height: 350px;
@@ -46,11 +46,30 @@ div {
 	background-color: gray;
 
 }
+/* ----------------------------------------*/
 .cards {
 	background: aqua;
 	height: 350px;
 	width: 850px;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    align-items: center;
+}
+.cards .subheader {
+	padding: 40px;
+	font-size: 36px;
+	font-weight: bold;
+	color: #1f2937
+}
+.cards .content {
+	display: flex;	
+	gap: 30px;
+}
+.cards .content .pic{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(200 100 100);
 }
 .quote {
 	background: orange;
