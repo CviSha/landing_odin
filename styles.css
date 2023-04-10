@@ -4,6 +4,7 @@ body {
 	/*height: 100vh;*/
 	background: #151515;
 	align-items: center;
+	margin: 0px;
 	
 }
 div {
@@ -12,7 +13,7 @@ div {
 }
 /* ----------------------------------------*/
 .header {
-	background: green;
+	background: #1f2937;
 	height: 350px;
 	width: 850px;
 	display: flex;
@@ -21,12 +22,26 @@ div {
 .top-line{
 	display: flex;
 	justify-content: space-between;
+	margin-left: 80px;
+	margin-right: 100px;
+}
+.header .logo {
+	margin-top: 15px;
+	border: 2px solid grey;
+	border-radius: 25px;
 }
 .top-line ul {
 	list-style: none;
 	display: flex;
-	gap: 5px;
+	gap: 20px;
+	color: #f9faf8;
+	font-size: 12px;
 }
+.header .top-line a {
+	text-decoration: none;
+    color: white;
+
+} 
 .header .info {
 	display: flex;
 	padding: 50px;
@@ -38,17 +53,36 @@ div {
 	height: 150px;
 	display: flex;
 	flex-direction: column;
-	background-color: #1f1f2f;
+	gap: 10px;
+	/*background-color: #1f1f2f;*/
+}
+.info .left-part .title {
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+}
+.info .left-part .text {
+	font-size: 18px;
+	color: white;
+}
+.info .left-part .button {
+	width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 12px;
+    border-width: 1px;
 }
 .info .right-part {
-	width: 300px;
-	height: 150px;
-	background-color: gray;
-
+    width: 300px;
+    height: 185px;
+    border-radius: 30px;
 }
+
 /* ----------------------------------------*/
 .cards {
-	background: aqua;
+	background: white;
 	height: 350px;
 	width: 850px;
 	display: flex;
@@ -69,7 +103,9 @@ div {
 .cards .content .pic{
 	width: 100px;
 	height: 100px;
-	background-color: rgb(200 100 100);
+	border-radius: 16px;
+	border-size:1px;
+	border-color: blue;
 }
 /* ----------------------------------------*/
 .quote {
@@ -110,6 +146,7 @@ div {
 	display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 5px;
 }
 .signup .msg-box .subheader {
 	color: #f9faf8;
@@ -120,7 +157,16 @@ div {
 	color: #f9faf8;
 	font-size: 14px;
 }
-
+.signup .signup-button {
+	background-color: #3882F6;
+	border: 1px solid white;
+	width: 80px;
+    height: 25px;
+    border-radius: 5px; 
+    font-size: 12px;
+    color: white;
+}
+	
 .footer {
 	background: #1f2937;
     height: 60px;
