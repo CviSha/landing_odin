@@ -22,8 +22,8 @@ div {
 .top-line{
 	display: flex;
 	justify-content: space-between;
-	margin-left: 80px;
-	margin-right: 100px;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 .header .logo {
 	margin-top: 15px;
@@ -98,15 +98,22 @@ div {
 }
 .cards .content {
 	display: flex;	
-	gap: 30px;
+	gap: 65px;
 }
 .cards .content .pic{
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	border-radius: 16px;
 	border-size:1px;
 	border-color: blue;
 }
+.cards .content .text{
+	font-family: helvetica;
+    font-weight: lighter;
+    font-size: 13px;
+    width: 130px;
+    color: #484849cc;
+	}
 /* ----------------------------------------*/
 .quote {
 	background: #e5e7eb;
@@ -119,10 +126,10 @@ div {
 }
 .quote .content {
 	width: 500px;
-	height: 130px;
-	font-size: 24px;
-	font-family: light italic;
-	color: #172937
+    height: 150px;
+    font-size: 18px;
+    font-family: Futura;
+    color: #172a3ab0;
 }
 .quote .author {
 	align-self: center;
